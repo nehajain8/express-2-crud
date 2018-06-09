@@ -1,0 +1,52 @@
+
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+label {
+    color :#b21f2d;
+}
+.container button,.btn-info {
+    margin: 20px 0;
+    background-color: #b21f2d !important;
+    border-color: #b21f2d !important;
+}
+h1 {
+    color: #b21f2d;
+    font-weight: bold;
+}
+.container{
+    color: blue;
+    padding: 25px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+li a{
+    color: #b21f2d;
+}
+.nav {
+    margin: 10px 0;
+}
+.nav,.nav li {
+    display: inline-block;
+}
+.nav li:first-child {
+    padding-left: 0;
+}
+.nav li {
+    padding: 0 25px;
+}
+a:active,a:hover,a:focus{
+    color: darkblue;
+}
+.result {
+    background: #b21f2d;
+    border-radius: 5px;
+    padding: 5px;
+}
+.result p {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}

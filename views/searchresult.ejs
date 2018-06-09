@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/stylesheets/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/stylesheets/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/javascripts/bootstrap.js"></script>
+</head>
+
+<div class="container">
+        <h1> CRUD OPERATION </h1>
+    <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/search">Find</a></li>
+        <li><a href="/update">Update</a></li>
+        <li><a href="/delete">Delete</a></li>
+    </ul>
+    <div class="result">
+        <p> <%= message %></p>
+        <% if (data!=null) { %>
+        <p>NoteID :<%= data.noteid %></p>
+        <p>Title: <%= data.title %></p>
+        <p>content: <%= data.content%></p>
+        <% } %>
+    </div>
+</div>   
+</html>
+
